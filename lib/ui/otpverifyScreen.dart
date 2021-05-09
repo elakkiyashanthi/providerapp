@@ -45,7 +45,7 @@ class _HomePageState extends State<OTPScreen> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
         body: SingleChildScrollView(
           child: Container(
             // color: Colors.blueGrey,
